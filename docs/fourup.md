@@ -1,26 +1,10 @@
----
-layout: default
----
+# "The Managers"
 
-# Week 1
-
-## Progress
-- N/A
-
-
-## Plans
-- Setup team Calendar
-- Team account setup started
-- Website research
-- Time Tracker, come up with possible metrics
-- Curate list of questions to ask project sponsor
-
-
-## Needs
-- Meet with project sponsor
-- Get hardware
-
-
-## Risks
-- N/A
+| Name        | Username          |
+|:-------------|:------------------|
+| Brady Brown | bxb6879 |
+| Daniel Jones | dkj2972|
+| Joshua Morrison| jmm4077|
+| Matt Thyng| mdt8740 |
+| Kal Rabb **advisor** | kxrvse |
 
