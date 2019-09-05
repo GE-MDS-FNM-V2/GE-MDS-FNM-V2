@@ -6,8 +6,5 @@
 | Daniel Jones | dkj2972|
 | Joshua Morrison| jmm4077|
 | Matt Thyng| mdt8740 |
+| Kal Rabb *advisor* | kxrvse |
 
-
-## Advisor
-|:---------|:-------|
-| Kal Rabb | kxrvse |
