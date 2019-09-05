@@ -1,10 +1,12 @@
 # "The Managers"
 
-## Team Members
-Brady, bxb6879
-Danny, dkj2972
-Josh, jmm4077
-Matt, mdt8740
+| Name        | Username          
+|:-------------|:------------------|
+| Brady Brown | bxb6879 |
+| Daniel Jones | dkj2972|
+| Joshua Morrison| jmm4077|
+| Matt Thyng| mdt8740 |
+
 
 ## Advisor
-Rabb, kxrvse
+Kal Rabb - kxrvse
