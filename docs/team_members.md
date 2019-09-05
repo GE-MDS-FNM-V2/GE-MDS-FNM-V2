@@ -1,3 +1,5 @@
+[Go back home](index.md).
+
 # "The Managers"
 
 | Name        | Username          |

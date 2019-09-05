@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Go back home](index.md).
+
 # Week 1
 
 ## Progress
