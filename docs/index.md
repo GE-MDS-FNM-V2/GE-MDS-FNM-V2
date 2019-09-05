@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+This is a test from Brady
+
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
