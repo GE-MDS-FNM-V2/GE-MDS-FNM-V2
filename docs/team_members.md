@@ -1,6 +1,6 @@
 # "The Managers"
 
-| Name        | Username          
+| Name        | Username          |
 |:-------------|:------------------|
 | Brady Brown | bxb6879 |
 | Daniel Jones | dkj2972|
@@ -9,4 +9,5 @@
 
 
 ## Advisor
+|:---------|:-------|
 | Kal Rabb | kxrvse |
