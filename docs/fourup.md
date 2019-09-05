@@ -10,7 +10,7 @@ layout: default
 ## Plans
 - 
 ## Needs
-- Spec sheet for orbit/transit radios ()
+- Spec sheet for orbit/transit radios (https://www.gegridsolutions.com/app/resources.aspx?prod=SDseries&type=3)
 ## Risks
 - 
 
