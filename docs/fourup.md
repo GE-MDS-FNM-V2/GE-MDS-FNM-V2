@@ -6,13 +6,21 @@ layout: default
 
 # Week 2 
 ## Progress
-- 
+- Research on radios and protocols/connections
+- Research on task tracking (decided on Github projects)
+- Created website using Github Pages
+- Team walk-through of FNM app
 ## Plans
-- 
+- Synopsis (Publish on website)
+- Survey Form
+- First draft of dev process and project plan
+- Brain Storm metrics
 ## Needs
 - Spec sheet for orbit/transit radios (https://www.gegridsolutions.com/app/resources.aspx?prod=SDseries&type=3)
+- Orbit Radio
 ## Risks
-- 
+- Scope and priority ambiguity
+- Difference in radios
 
 
 # Week 1
