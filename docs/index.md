@@ -6,7 +6,7 @@ layout: default
 [Usernames and positions](team_members.md).
 
 # Four-Ups
-[Available Here](fourup.md).
+[Available Here](https://docs.google.com/spreadsheets/d/1tr0NLqPnvQoSHXjlyaOBEWRYK5RadWwsvWVF0A285DU/edit?usp=sharing).
 
 
 # Time Tracking
