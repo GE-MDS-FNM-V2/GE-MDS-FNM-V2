@@ -9,6 +9,8 @@ GE’s Field Network Manager (FNM) is a free NMS that GE created for customers w
 
 This project is the first phase in building a new FNM using the latest lightweight, web-based technologies. By modernizing the application to newer technologies the application will be easier to maintain. This will also allow for the application to be given the updated GE user experience. Our goal for this project is to build an open source web-based desktop application that will allow users to connect and configure GE’s latest MDS radio over serial or ethernet ports, using the protocols of the particular radio. Additionally, this application should be able to scale to connect to any GE MDS radio product using any of the radios’ protocols and connect through serial, ethernet, or remote network connections.
 
+# Project Plan
+[Available Here](https://docs.google.com/document/d/1fblkIPs3Jfeo7JahlB7-XLi7iEBIqy3-CTSK0gvSCSI/edit?usp=sharing)
 
 # Team Members
 [Usernames and positions](team_members.md).
