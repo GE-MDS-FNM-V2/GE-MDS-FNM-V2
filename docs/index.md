@@ -12,6 +12,9 @@ This project is the first phase in building a new FNM using the latest lightweig
 # Project Plan
 [Available Here](https://docs.google.com/document/d/1fblkIPs3Jfeo7JahlB7-XLi7iEBIqy3-CTSK0gvSCSI/edit?usp=sharing)
 
+# Measurements and Metrics
+[Available Here](metrics.md).
+
 # Team Members
 [Usernames and positions](team_members.md).
 
