@@ -23,3 +23,6 @@ This project is the first phase in building a new FNM using the latest lightweig
 
 # Risk Table
 [Available Here](https://docs.google.com/spreadsheets/d/1tmSjhvehoqKSVVcPALN06xIqRrkCcz9zVBmR6Co2_H0/edit?usp=sharing)
+
+# Domain Model
+[Available Here](https://drive.google.com/a/g.rit.edu/file/d/1mvlniV8AvdKoO-CBSGlNzIdj2W_v0q9z/view?usp=sharing)
