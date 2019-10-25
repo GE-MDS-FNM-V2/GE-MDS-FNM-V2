@@ -1,4 +1,5 @@
 export default {
   result: null,
-  fetchingResult: false
+  fetchingResult: false,
+  error: null
 };

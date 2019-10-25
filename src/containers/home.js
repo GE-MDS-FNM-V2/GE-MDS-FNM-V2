@@ -4,7 +4,8 @@ import Home from '../components/home';
 const mapStateToProps = state => {
   return {
     result: state.result,
-    fetchingResult: state.fetchingResult
+    fetchingResult: state.fetchingResult,
+    error: state.error
   };
 };
 

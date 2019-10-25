@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Container, Row, Col } from 'reactstrap';
 import { fetchResult } from '../store/actions';
 
-export default ({ dispatch, result, fetchingResult }) => {
+export default ({ dispatch, result, fetchingResult, error }) => {
   return (
     <Container>
       <Row>
@@ -13,6 +13,11 @@ export default ({ dispatch, result, fetchingResult }) => {
             </React.Fragment>
           )}
           {fetchingResult && <h2>Is Fetching</h2>}
+          {error && (
+            <React.Fragment>
+              <h2>Error</h2> <p>{error.message}</p>
+            </React.Fragment>
+          )}
           <Button
             onClick={() => {
               console.log(dispatch);

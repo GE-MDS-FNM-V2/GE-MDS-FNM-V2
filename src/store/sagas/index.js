@@ -1,24 +1,40 @@
 import { put, takeEvery, all, call } from 'redux-saga/effects';
-import { FETCH_RESULT, FETCH_RESULT_SUCCESS } from '../actions';
+import {
+  FETCH_RESULT,
+  FETCH_RESULT_SUCCESS,
+  FETCH_RESULT_FAILURE
+} from '../actions';
 
-export const delay = ms => new Promise(res => setTimeout(res, ms));
+import { mockRequest } from '../../api';
 
-export function* helloSaga() {
-  console.log('Hello Sagas!');
+let mockDoFail = false;
+
+function* fetchResultAsync() {
+  try {
+    console.log(mockDoFail);
+    if (mockDoFail) {
+      mockDoFail = !mockDoFail;
+      throw new Error('This is a fake failed request. Click the button again.');
+    } else {
+      const result = yield mockRequest();
+      yield put({
+        type: FETCH_RESULT_SUCCESS,
+        payload: result
+      });
+      mockDoFail = !mockDoFail;
+    }
+  } catch (e) {
+    yield put({
+      type: FETCH_RESULT_FAILURE,
+      payload: e
+    });
+  }
 }
 
-export function* fetchResultAsync() {
-  yield call(delay, 1000);
-  yield put({
-    type: FETCH_RESULT_SUCCESS,
-    payload: { asfasdf: 'asdfasdfasdf' }
-  });
-}
-
-export function* watchFetchResult() {
+function* watchFetchResult() {
   yield takeEvery(FETCH_RESULT, fetchResultAsync);
 }
 
 export default function* rootSaga() {
-  yield all([helloSaga(), watchFetchResult()]);
+  yield all([watchFetchResult()]);
 }

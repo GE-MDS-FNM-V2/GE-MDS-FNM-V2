@@ -1,20 +1,33 @@
-import { FETCH_RESULT, FETCH_RESULT_SUCCESS } from '../actions';
+import {
+  FETCH_RESULT,
+  FETCH_RESULT_SUCCESS,
+  FETCH_RESULT_FAILURE
+} from '../actions';
 import initialState from '../initialState';
 import axios from 'axios';
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case FETCH_RESULT:
-      // http://dummy.restapiexample.com/api/v1/employees
       return {
         ...state,
-        fetchingResult: true
+        fetchingResult: true,
+        error: null,
+        result: null
       };
     case FETCH_RESULT_SUCCESS:
       return {
         ...state,
         fetchingResult: false,
-        result: action.payload
+        result: action.payload,
+        error: null
+      };
+    case FETCH_RESULT_FAILURE:
+      return {
+        ...state,
+        fetchingResult: false,
+        result: null,
+        error: action.payload
       };
     default:
       return state;
