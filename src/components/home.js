@@ -15,7 +15,7 @@ export default ({ dispatch, result, fetchingResult, error }) => {
           {fetchingResult && <h2>Is Fetching</h2>}
           {error && (
             <React.Fragment>
-              <h2>Error</h2> <p>{error.message}</p>
+              <h2>Error</h2> <p>{error}</p>
             </React.Fragment>
           )}
           <Button
