@@ -4,7 +4,6 @@ import {
   FETCH_RESULT_FAILURE
 } from '../actions';
 import initialState from '../initialState';
-import axios from 'axios';
 
 export default (state = initialState, action) => {
   switch (action.type) {
