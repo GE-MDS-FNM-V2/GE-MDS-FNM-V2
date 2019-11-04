@@ -3,12 +3,20 @@ GE MDS Field Network Manager V2
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Deployment
-To deploy the webapp, run 
-```yarn add now```
-and 
-```now```
-The 'now' CLI will walk you through login instructions
+## Deployments
+To deploy our webapp we use a service called ZEIT Now.
+It is setup to automatically deploy every commit. You can see those deployments
+here: https://github.com/GE-MDS-FNM-V2/GE-MDS-FNM-V2/deployments.
+
+If you would like to deploy from your own commandline rather than through the
+git hooks, you can use ZEIT's CLI tool to do that. The following should get you
+started with that:
+```
+yarn add now
+now
+```
+(Note: the now CLI tool requires you to login, however the CLI will instruct you
+on how to do that yourself)
 
 ## Available Scripts
 
