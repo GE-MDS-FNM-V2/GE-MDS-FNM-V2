@@ -7,6 +7,7 @@
     "bootstrap": "^4.3.1",
     "husky": "^3.0.9",
     "lint-staged": "^9.4.2",
+    "now": "^16.4.4",
     "prettier": "^1.18.2",
     "prop-types": "^15.7.2",
     "react": "^16.11.0",
@@ -22,7 +23,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn add now && now"
   },
   "husky": {
     "hooks": {

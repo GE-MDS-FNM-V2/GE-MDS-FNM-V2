@@ -3,6 +3,12 @@ GE MDS Field Network Manager V2
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Deployment
+To deploy the webapp, run 
+```yarn add now```
+```now```
+The 'now' CLI will walk you through login instructions
+
 ## Available Scripts
 
 In the project directory, you can run:
