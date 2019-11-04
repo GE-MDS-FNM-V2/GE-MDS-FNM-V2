@@ -27,6 +27,8 @@ export default ({ dispatch, result, fetchingResult, error }) => {
           >
             Make Request
           </Button>
+          <h1>Env Vars</h1>
+          <pre>{JSON.stringify(process.env, null, 4)}</pre>
         </Col>
       </Row>
     </Container>
