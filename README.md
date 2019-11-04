@@ -6,6 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Deployment
 To deploy the webapp, run 
 ```yarn add now```
+and 
 ```now```
 The 'now' CLI will walk you through login instructions
 
