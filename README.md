@@ -8,6 +8,10 @@ To deploy our webapp we use a service called ZEIT Now.
 It is setup to automatically deploy every commit. You can see those deployments
 here: https://github.com/GE-MDS-FNM-V2/GE-MDS-FNM-V2/deployments.
 
+Now's integration also posts a comment on every commit it publishes. You can
+find an example of this here: 
+https://github.com/GE-MDS-FNM-V2/GE-MDS-FNM-V2/commit/d2ec6d0fe11941ce52c60a14673764692cbda863#comments
+
 If you would like to deploy from your own commandline rather than through the
 git hooks, you can use ZEIT's CLI tool to do that. The following should get you
 started with that:
