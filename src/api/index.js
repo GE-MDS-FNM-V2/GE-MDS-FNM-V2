@@ -1,5 +1,5 @@
 import Axios from 'axios';
 
 export const mockRequest = () => {
-  return Axios.get('http://dummy.restapiexample.com/api/v1/employees');
+  return Axios.get('https://jsonplaceholder.typicode.com/todos/1');
 };
