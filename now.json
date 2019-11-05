@@ -1,7 +1,7 @@
 {
   "build": {
     "env": {
-      "REACT_APP_TESTING": "@secret-name"
+      "REACT_APP_TESTING": "hello team"
     }
   }
 }
